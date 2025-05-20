@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Programming Challenges</title>
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <header class="menubar">
+        <h1 class="title">My Programming Challenges Page</h1>
+        <nav class="mainmenu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Challenges</a></li>
+                <li><a href="./Contribute.html">Contribute to the crew</a></li>
+                <li><a href="./Login.html">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content" style="text-align: left; margin-left: 20px;">
+            <h2>Welcome to your Programming Fundamentals page</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisquam, tempora impedit suscipit numquam nostrum.</p>
+            <div class="buttons">
+                <button>Visit the database</button>
+                <button>Meet the crew</button>
+            </div>
+            <img class="example-image" alt="Programming Graphic" src="./media/example.png" style="width: 150px; margin-top: 10px;" />
+        </div>
+    </main>
+
+    <h2>Our Programming database</h2>
+    <div class="greatcontainer">
+
+        <div class="card">
+            <img class="lowchart" alt="Flowchart" src="./Media/Flowchart.png" />
+            <h5 class="Flowchartitle">Employees salary problem</h5>
+            <p class="Flowchart">An employee needs to calculate his/her weekly salary. You can obtain this salary by calculating:
+                <br>
+                If works 40 hours or less, will earn $16 per hour.<br>
+                If works more than $40 per hour for the first 40 hours and $20 for each extra hour</p>
+        </div>
+
+        <div class="card">
+            <img class="Flowchart" alt="Flowchart" src="./Media/Flowchart.png" />
+            <h5 class="Flowchartitle">Restaurant consumption problem</h5>
+            <p class="Flowchart">A restaurant offers a discount of 10% if the client consumes up to $100 in products and a discount of 20% for higher consumes. For both cases, the tax percentage is 12%. Do a flowchart that can determine the discount value, the tax value, and total price.
+            </p>
+        </div>
+    </div>
+
+    <div class="challenge-section" style="background-color: #dfffdc; padding: 20px; margin: 40px 0; border-radius: 10px;">
+        <h2 style="color: #721e86;">An additional challenge for you!</h2>
+        <p>Type a number between 0 and 100. Try to guess the number!</p>
+        <div style="display: flex; gap: 10px; max-width: 500px; flex-wrap: wrap;">
+            <input id="guessInput" type="number" min="0" max="100" placeholder="Enter your guess" style="flex: 1; padding: 10px; border-radius: 5px; border: 1px solid #ccc;" />
+            <button id="guessButton" style="background-color: #77167a; color: white; padding: 10px 20px; border: none; border-radius: 20px; cursor: pointer;">Guess now!</button>
+        </div>
+        <p id="guessResult" style="margin-top: 10px; font-weight: bold;"></p>
+    </div>
+
+    <div class="mycrew" id="crew">
+        <h2 class="crewtitle">Meet our crew</h2>
+        <div class="cardcrew">
+            <img class="crewimage" alt="My photo" src="./Media/IMG_5799.jpeg.png" />
+            <h5>Mariana Sanchez Hernandez</h5>
+            <h6>Student</h6>
+            <p class="crewparagrapgh">I am here to help you with whatever you need, thank you!!!</p>
+        </div>
+    </div>
+
+    <div class="mycrew" id="contribute">
+        <h2 class="crewtitle">Contribute to the project</h2>
+        <div class="cardcrew"></div>
+        <button class="contributebutton">More information here</button>
+    </div>
+
+    <!-- Nueva sección de suscripción -->
+    <div class="subscription-section" style="text-align: center; margin-top: 40px;">
+        <h2 style="color: rgb(94, 15, 114);">Do you want more information about our project?</h2>
+        <p>Type your email to subscribe and get full access to your content!</p>
+        <div style="display: flex; justify-content: center; align-items: center; gap: 10px; margin-top: 10px;">
+            <input type="email" placeholder="anyexample@mail.com" style="padding: 10px; width: 250px; border-radius: 5px; border: 1px solid #ccc;">
+            <button style="background: linear-gradient(to right, #6a5acd, #570b5e); color: white; border: none; padding: 10px 20px; border-radius: 20px; cursor: pointer;">Send</button>
+        </div>
+        <div style="margin-top: 20px; background-color: #f0f0f0; display: inline-block; padding: 10px 20px; border-radius: 5px; font-weight: bold; color: #4d1274;">
+            Thanks for trust in us! you will receive daily challenges in your mail!
+        </div>
+    </div>
+    <!-- Fin de la nueva sección -->
+
+    <footer>
+        <p>&copy; 2024 Programming Challenges</p>
+    </footer>
+</body>
+
+</html>
+
+
